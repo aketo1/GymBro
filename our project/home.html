@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymBro - Friendly Fitness</title>
+    <link rel="icon"  type="image/png" href="photo/GB.png">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" id="closeBtn">X</button>
+        <h1 class="gyms-title"> 
+            <span class="gym">Gym</span><span class="s">Bro</span> 
+        </h1>
+        <ul>
+            <li class="item"><a href="home.html"><img src="photo/1_home.png" width="42" height="42">Home</a></li>
+            <li class="item"><a href="#"><img src="photo/2_workout.png" width="42" height="42">Workout Plan</a></li>
+            <li class="item"><a href="#"><img src="photo/3.diet.png" width="42" height="42">Diet Plan</a></li>
+            <li class="item"><a href="#"><img src="photo/4_water.png" width="42" height="42">Water</a></li>
+            <li class="item"><a href="#"><img src="photo/5_kcal.png" width="42" height="42">Calories Calculator</a></li>
+            <li class="item"><a href="#"><img src="photo/6_timer.png" width="42" height="42">Timer</a></li>
+            <li class="item"><a href="#"><img src="photo/7_tips.png" width="42" height="42">Health Tips</a></li>
+            <li class="item"><a href="#"><img src="photo/8_fire.png" width="42" height="42">Today's Challenge</a></li>
+            <li class="item"><a href="#"><img src="photo/9_se.png" width="42" height="42">Account Settings</a></li>
+        </ul>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                 <!-- زر القائمة -->
+                 <button class="menu-btn" id="menuBtn"><i class="fa-solid fa-bars" style="color: #ffffff;" ></i></button>
+                <div class="logo-container">
+                    <div class="logo">GymBro</div>
+                    <div class="tagline">Friendly Fitness</div>
+                </div>
+                
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#benefits">Benefits</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="user-profile">
+                    <a href="login.html">
+                        <img src="photo/user_icon.png" alt="User Profile" class="user-image">
+                        <div class="underline"></div>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>GymBro</h1>
+                <p>Your go-to platform for achieving your fitness and health goals. Designed for athletes, fitness enthusiasts, and anyone looking to maintain a healthy lifestyle.</p>
+                <a href="#features" class="hero-primary">Learn more</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Features</h2>
+                <p>Everything you need to achieve your fitness goals in one place</p>
+            </div>
+            <div class="features-container">
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="photo/2_workout.png"></div>
+                    <h3>WORKOUT PLANS</h3>
+                    <p>Customized exercises designed for all fitness levels. Choose from hundreds of workouts or create your own unique routine to match your specific goals.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="photo/5_kcal.png"></div>
+                    <h3>Calories Calculator</h3>
+                    <p>Calculate your calories based on your weight, height, and activity level to better manage your fitness and diet.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon"><img src="photo/3.diet.png"></div>
+                    <h3>Diet PLANS</h3>
+                    <p>Balanced food guides for a healthy diet. Get personalized meal suggestions based on your fitness goals, dietary preferences, and nutritional needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+        <div class="container benefits-container">
+            <div class="section-header">
+                <h2>What do you get?</h2>
+                <p>GymBro provides everything you need for a complete fitness solution</p>
+            </div>
+            
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-icon">✓</div>
+                    <div class="benefit-text">
+                        <h3>Customized workout plans</h3>
+                        <p>Choose routines tailored to your goals, whether it's weight loss or muscle building.</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">✓</div>
+                    <div class="benefit-text">
+                        <h3>Exercise tutorials</h3>
+                        <p>Learn the correct form with detailed videos and images to avoid injuries and maximize results from every movement.</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">✓</div>
+                    <div class="benefit-text">
+                        <h3>Water tracking</h3>
+                        <p>Track your daily water intake in milliliters or liters to see your progress and stay motivated.</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">✓</div>
+                    <div class="benefit-text">
+                        <h3>Calorie Count and Diet Plan</h3>
+                        <p>Diet suggestions to support your exercise routine and help you stay fit and balanced.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container contact-container">
+            <div class="contact-text">
+                <h2>Let's Connect</h2>
+                <p>Start your fitness journey with us anytime, anywhere! Our team is ready to help you achieve your health and fitness goals.</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <p>Phone: (123) 456-7890</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉</div>
+                        <p>Email: hello@reallygreatsite.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🌐</div>
+                        <p>Social Media: @GymBro</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <h3>Send us a message</h3>
+                <div class="form-group">
+                    <label class="form-label">Name</label>
+                    <input type="text" class="form-input" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-input" placeholder="Your email">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Message</label>
+                    <textarea class="form-textarea" placeholder="How can we help you?"></textarea>
+                </div>
+                <button class="submit-button">Send Message</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>About GymBro</h3>
+                    <p>GymBro is dedicated to helping people achieve their fitness goals through personalized workouts, nutrition guidance, and progress tracking.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">f</a>
+                        <a href="#" class="social-icon">t</a>
+                        <a href="#" class="social-icon">in</a>
+                        <a href="#" class="social-icon">ig</a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#benefits">Benefits</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for fitness tips, updates, and special offers.</p>
+                    <form>
+                        <input type="email" class="form-input" placeholder="Your email address" style="margin-bottom: 10px;">
+                        <button class="submit-button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 GymBro - Friendly Fitness. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="home.js"></script>
+</body>
+</html>
